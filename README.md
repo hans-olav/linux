@@ -18,7 +18,7 @@ git config --global user.name "Hans Olav Norheim"
 sudo apt install -y tmux sysstat gawk net-tools coreutils stow
 git clone https://github.com/hans-olav/linux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-cd linux && stow -D . && cd ~
+cd linux && stow . && cd ~
 
 tmux
 ```
