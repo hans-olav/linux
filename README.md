@@ -15,11 +15,11 @@ Get git repo and link up
 git config --global user.email hansolav@hansolav.net
 git config --global user.name "Hans Olav Norheim"
 
-sudo apt install -y tmux sysstat gawk net-tools coreutils
+sudo apt install -y tmux sysstat gawk net-tools coreutils stow
 git clone https://github.com/hans-olav/linux
-ln -s linux/.tmux.conf
-ln -s linux/.nanorc
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+cd linux && stow -D . && cd ~
+
 tmux
 ```
 prefix + I to install plugins
