@@ -23,3 +23,10 @@ cd linux && stow -v . && cd ~
 tmux
 ```
 prefix + I to install plugins
+
+
+tailscale
+```
+curl -fsSL https://tailscale.com/install.sh | sh
+sudo tailscale up --ssh
+```
