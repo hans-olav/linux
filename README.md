@@ -8,6 +8,7 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 cd linux && stow -v . && cd ~
 tmux source-file ~/.tmux.conf
 ~/.tmux/plugins/tpm/bin/install_plugin
+```
 
 tailscale
 ```
